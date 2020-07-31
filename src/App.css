@@ -3,18 +3,25 @@
 }
 
 .stopwatch{
-  color: red;
+  color:whitesmoke;
   border: solid gold;
   border-radius: 360;
-
+width: 800px;
+margin: 30px auto;
+text-align: center;
 }
 body{
 background-color: salmon;
+font-family: Arial, Helvetica, sans-serif;
+height: 100%;
 }
 
 button:hover{
   color: darkblue;
   margin: auto;
-  padding: 10px;
-  background-color: green;
+  padding: 18px 10px;
+  background-color:white;
+  width: 200px;
+  font-size: large;
+  cursor: pointer;
 }
