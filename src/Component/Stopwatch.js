@@ -56,9 +56,9 @@ class Stopwatch extends Component {
           Stopwatch<br/><br/>
           {this.state.minutes} : {this.state.seconds} : {this.state.milliseconds}
           <div className='buttons'>
-            <button onClick={this.startTime}>Start</button>
-            <button onClick={this.stopTime}>Stop</button>
-            <button onClick={this.resetTime}>Reset</button>
+            <button id='start' onClick={this.startTime}>Start</button>
+            <button id='stop' onClick={this.stopTime}>Stop</button>
+            <button id='reset' onClick={this.resetTime}>Reset</button>
           </div>
         </div>
       );
