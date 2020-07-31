@@ -2,3 +2,19 @@
   text-align: center;
 }
 
+.stopwatch{
+  color: red;
+  border: solid gold;
+  border-radius: 360;
+
+}
+body{
+background-color: salmon;
+}
+
+button:hover{
+  color: darkblue;
+  margin: auto;
+  padding: 10px;
+  background-color: green;
+}
