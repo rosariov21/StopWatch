@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 
 
-class Stopwatch extends Component {
+//First create a class component that renders start,stop,reset funtions we use class becuase i will have a lot 
+// of variables chaing we have to use a constructor and super 
+class Stopwatch extends Component {//
     constructor() {
       super()
-      this.state = {
+      this.state = {  //using this.state and use objects then give it a value
         milliseconds: 0,
         seconds: 0,
         minutes: 0,
