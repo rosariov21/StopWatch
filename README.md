@@ -5,6 +5,24 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+How to get started
+
+Create a github repository  for this project
+Initalize a Readme.md file (include a description of the assignment)
+npx create-react-app stopwatch (this will exist inside of your github repository)
+cd stopwatch
+npm start
+clean necessary files with react default content
+create a component folder
+add your component files inside (remember to import and export components)
+Add components and have it render inside of App.js
+ 
+
+Folder structure
+react-stop-watch (github repo)
+
+stopwatch (react project)
+Readme.md 
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
