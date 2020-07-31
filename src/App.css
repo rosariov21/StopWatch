@@ -18,13 +18,17 @@ height: 100%;
 }
 
 button:hover{
-  color: darkblue;
+  color: yellow;
   margin: auto;
-  padding: 18px 10px;
-  background-color:white;
+  padding: 20px 10px;
+  background-color:red;
   width: 200px;
   font-size: large;
   cursor: pointer;
+  border: solid aqua;
+}
+button{
+  border: solid salmon;
 }
 #start{
   width: 200px;
